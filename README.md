@@ -21,6 +21,19 @@ This project is divided into five main sections:
 4. Sentiment Analysis (NLP)
 5. Time Series Forecasting
 
+# Dataset Information
+
+- The project uses the Brazilian E-Commerce Public Dataset by Olist.
+- The dataset contains real transactional data from 2016 to 2018.
+- It includes information on customers, orders, payments, reviews, products, sellers, and geolocation.
+- The dataset consists of approximately 100,000 orders and related records.
+- Data is distributed across multiple relational tables that were merged for analysis.
+- Customer location data includes city, state, latitude, and longitude information.
+- Payment data provides monetary values used for revenue analysis and RFM segmentation.
+- Review data contains customer feedback used for sentiment classification (NLP).
+- Order timestamps were used for delivery time calculation and time series forecasting.
+
+The dataset contains missing values and skewed numerical features, requiring preprocessing and feature engineering.
 ---
 
 # Customer Segmentation (Clustering)
